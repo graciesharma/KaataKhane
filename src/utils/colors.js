@@ -1,4 +1,4 @@
 export const colors = {
-    darkGreen: "#084808",
-    white: "#fff",
-  };
+  darkGreen: "#084808",
+  white: "#fff",
+};
