@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Searchbar } from "react-native-paper";
 import { SafeAreaView, StatusBar, FlatList } from "react-native";
 import styled from "styled-components";
-import { ResaturantInfoCard } from "../components/restaurant-info-card.component";
+import { RestaurantInfoCard } from "../components/restaurant-info-card.component";
 
 const SafeArea = styled(SafeAreaView)`
   flex: 1;
@@ -36,7 +36,7 @@ export const RestaurantsScreen = () => {
           { name: 6 },
           { name: 7 },
         ]}
-        renderItem={() => <ResaturantInfoCard />}
+        renderItem={() => <RestaurantInfoCard />}
         keyExtractor={(item) => item.name}
         contentContainerStyle={{ margin: 12 }}
       />

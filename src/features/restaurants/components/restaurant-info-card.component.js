@@ -19,7 +19,7 @@ import {
   RestaurantCardContent,
 } from "./restaurant-info.styles";
 
-export const ResaturantInfoCard = ({ restaurant = {} }) => {
+export const RestaurantInfoCard = ({ restaurant = {} }) => {
   const [fontsLoaded] = useFonts({
     Oswald400Regular,
   });
